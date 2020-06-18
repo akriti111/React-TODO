@@ -1,0 +1,40 @@
+.list{
+    color: #1f618d;
+    width: 300px;
+    background-color: snow;
+    height: 50px;
+    margin: 20px auto;
+    border-radius: 5px;
+
+}
+
+.list p{
+    padding: 10px;
+    position: relative;
+}
+.list p span{
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
+.faicons{
+    margin: 0 5px;
+    font-size: 20px;
+    color: darkorange;
+    opacity: .8;
+}
+.faicons:hover{
+    opacity: 1;
+}
+.list p input{
+    background-color: transparent;
+    border: 0;
+    color: #1f618d;
+    font-size: 18px;
+    
+    font-family: 'Anton', sans-serif;
+    
+}
+.list p input{
+    outline: none;
+}
